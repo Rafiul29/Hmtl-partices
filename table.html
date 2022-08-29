@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Table Design</title>
+    <style>
+        table,th,td{
+           
+            border-collapse: collapse;
+
+        }
+        tbody tr:nth-child(even){
+            color: aliceblue;
+            background-color: rgb(67, 67, 71);
+        }
+             /* tr:nth-child(3){
+            height: 200px;
+        } */
+
+         th:nth-child(4),
+         td:nth-child(4)
+
+        {
+            /* border: 1px dotted red; */
+            width: 400px;
+        }
+        /* td:nth-child(odd){
+            background-color: blue;
+        } */
+
+        label{
+            display: inline-block;
+            background-color: blue;
+            margin-top: 10px;
+            padding: 10px 5px 12px;
+            border: 2px solid crimson;
+        }
+        input{
+            border:none;
+            border-bottom: 2px solid red;
+            padding: 9px;
+            margin-bottom: 5px;
+        }
+        
+    
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+           <tr>
+            <th>Sl</th>
+            <th>Name</th>
+            <th>Roll</th>
+            <th >Email</th>
+            <th>Age</th>
+           </tr>
+        </thead>
+        <tbody> 
+           <tr>
+            <td>1</td>
+            <td>Rafiul</td>
+            <td>1814029</td>
+            <td>rafiulislam4472@gmail.com</td>
+            <td>24</td>
+           </tr>
+           <tr >
+            <td>2</td>
+            <td>rafi</td>
+            <td>1829140</td>
+            <td>rafi@gmail.com</td>
+            <td>22</td>
+           </tr>
+           <tr>
+            <td>3</td>
+            <td>ewfe</td>
+            <td>4232</td>
+            <td>vsdvsdv@gmail.com</td>
+            <td>22</td>
+           </tr>
+           <tr>
+            <td>4</td>
+            <td>fdgg</td>
+            <td>4532</td>
+            <td>dbef@gmail.com</td>
+            <td>21</td>
+           </tr>
+           <tr>
+            <td>5</td>
+            <td>hgre</td>
+            <td>4234</td>
+            <td>rafi@gmail.com</td>
+            <td>20</td>
+           </tr>
+           <tr>
+            <td>6</td>
+            <td>hgre</td>
+            <td>4234</td>
+            <td>rafi@gmail.com</td>
+            <td>20</td>
+           </tr>
+        </tbody>
+    </table>
+
+    <br><br><br><br>
+
+
+        <fieldset>
+            <legend for="">Resgistration From</legend>
+          <form action="">
+            <label for="">Frist Name </label> <br>
+            <input type="text" name="first name" placeholder="Enter Your first name" required> <br>
+            <label for="">Last Name</label><br>
+            <input type="text" placeholder=" Enter last name" required><br>
+            <label for="">Email</label> <br>
+            <input type="email" placeholder="Enter your email" required> <br>
+            
+            <label for="">Phone Number</label> <br>
+            <input type="tel" name="telephone number"  placeholder="Enter your phone number" required><br>
+
+            <label for="">Choose your option </label> <br>
+            <input type="checkbox" value="Foodball" required>  
+            <label for="">Football</label>
+            <input type="checkbox" value="cricket" required>
+            <label for="">cricket</label> <br>
+
+            <label for="">Gender</label>
+            <input type="radio" name="" id="" required>
+            <label for="">Male</label>
+            <input type="radio" name="" id="" required>
+            <label for="">Female</label> <br>
+
+            <label for=""> Your Country</label>
+            <select name="" id="" required>
+                <option value="">--Your Country --</option>
+                <option value="bangladesh">Bangladesh</option>
+                <option value="india">India</option>
+                <option value="sriLanka">SriLanka</option>
+                <option value="usa">U.S.A</option>
+                <option value="russia">Russia</option>
+                <option value="urikane">Urikane</option>
+            </select> <br>
+
+            <label for="">Description</label> <br>
+            <textarea name="" id="" cols="40" rows="5" required></textarea>
+            <br>
+         <button type="submit" required >Submit</button>
+
+          </form>
+
+        </fieldset>
+
+
+
+    
+</body>
+</html>
