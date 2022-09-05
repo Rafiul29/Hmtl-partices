@@ -1,0 +1,38 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .heading{
+    font-size: 36px;
+    font-weight: 700;
+    /* text-decoration: underline; 
+     text-transform:uppercase;*/
+   
+    /* border: 1px solid rgb(98, 54, 54); 
+     border: 2px dotted blue;
+ border: 3px dashed violet;
+     border: 2px double red;
+     border: 2px ridge red;
+    border: 2px inset rgb(51, 43, 43);
+   
+    */
+    letter-spacing: 2px;
+    word-spacing: 4px;
+   
+
+  }
+
+  .heading::first-letter{
+    text-transform: uppercase;
+  }
+
+  .heading::first-line{
+    text-transform: uppercase;
+  }
+
+  .heading:nth-child(5){
+    background-color: aqua;
+  }
