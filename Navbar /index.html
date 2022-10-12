@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar </title>
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <style>
+        nav{
+           width: 100%;
+           height: 80px;
+           background-color: hotpink;
+           position: fixed;
+           top: 0;
+           left: 0;
+        }
+
+        .nav-container{
+            height: 100%;
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+        }
+        .nav-logo{
+            display: block;
+            width: 100px;
+            height: 80px;
+        }
+        .nav-links{
+            display: flex;
+            gap: 4rem;
+            list-style: none;
+        }
+       .nav-links li a{
+        color: blue;
+        text-decoration: none;
+     font-size: 20px;
+     font-family: 'Courier New', Courier, monospace;
+        font-weight: 500;
+       }
+       .nav-links li a:hover{
+        color:rgb(85, 85, 210);
+       }
+    </style>
+</head>
+<body>
+
+  <!-- Navbar Design  -->
+    <nav>
+      <div class="nav-container">
+        <a href="#">
+            <img class="nav-logo" src="./img/logo.png" alt="logo">
+        </a>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Gallary</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    
+</body>
+</html>
